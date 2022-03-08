@@ -21,22 +21,8 @@ class AdminHome extends Component {
 		});
 	}
 
-<<<<<<< Updated upstream
-=======
-	renderEmployees = () => {
-		console.log("render Employees fired");
-		console.log(this.state.employeeList);
-		return this.state.employeeList.map((e) => {
-			// <EmployeeCard
-			// 	key={e.id}
-			// 	firstName={e.firstName}
-			// 	lastName={e.lastName}
-			// 	jobTitle={e.jobTitle}
-			// />;
-		});
-	};
+	
 
->>>>>>> Stashed changes
 	// renderEmployees = () => {
 	// 	console.log("render Employees fired");
 	// 	console.log(this.state.employeeList);
